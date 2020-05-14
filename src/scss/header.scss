@@ -1,0 +1,26 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background: #fff;
+
+  .globalNavigation {
+    display: flex;
+    justify-content: center;
+
+    li {
+      &:not(:first-child) {
+        margin-left: 50px;
+      }
+    }
+
+    .navigationItem {
+      color: $titleColor;
+      text-decoration: none;
+      font-family: Impact;
+      font-size: 20px;
+    }
+  }
+}

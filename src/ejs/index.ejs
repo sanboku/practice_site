@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <% let title = "kobe" %> <% include ./src/ejs/templates/_head%>
+  <% let title = "kobe" %> <% include ./src/ejs/templates/_head %>
   <body>
     <div class="wrap">
       <!-- Header -->
       <% include ./src/ejs/templates/_header %>
 
       <!-- Main visual -->
-      <div class="mainVisual">
-        <p class="descriptionText">
-          NBAにおいて伝説的スターであるコービー・ブライアント<br />
-          <br />
-          2020年1月26日<br />
-          彼が乗ったヘリコプターが墜落し、彼と彼の次女のジアナを含む<br />
-          乗組員全員が死亡する事故が起き、それは世界中に衝撃を与えた<br />
-          <br />
-          コービーはとても厳しかった　自分にもチームメイトにも<br />
-          自己中心的に映るプレーから、アンチも多かった<br />
-          <br />
-          しかし彼は、数々の偉業を成し遂げ実力を証明し続けた<br />
-        </p>
-      </div>
+      <div class="mainVisual"></div>
 
       <!-- Main maincontents -->
       <div class="mainContents">
         <section class="description">
-          <h1 class="mainTitle">THIS IS KOBE</h1>
+          <h1 class="mainTitle">THIS IS KOBE BRYANT</h1>
+          <p class="descriptionText">
+            NBAにおいて伝説的スターであるコービー・ブライアント<br />
+            <br />
+            2020年1月26日<br />
+            彼が乗ったヘリコプターが墜落 彼と彼の次女のジアナを含む<br />
+            乗組員全員が死亡する事故が起き、この事故は世界中に衝撃を与えた<br />
+            <br />
+            コービーはとても厳しくストイックな性格で、自己中心的に映るプレーが目立ち<br />
+            ファンにはアンチが多い選手だったと言ってもいいだろう<br />
+            チーム内でもよく思わない選手もいた不仲説が噂されたこともあった<br />
+            <br />
+            しかし彼は数々の偉業を成し遂げ、実力を証明し続けた<br />
+          </p>
+        </section>
+
+        <!-- mambaMentality -->
+        <section id="mambaMentality">
+          <h2 class="subTitle">MAMBA MENTALITY</h2>
+          <p></p>
         </section>
 
         <!-- History -->
-        <section class="history">
-          <h2 class="subTitle">History</h2>
-          <div>
+        <section id="history">
+          <h2 class="subTitle">HISTORY</h2>
+          <div class="historyImg">
+            <h3 class="imgTitle">NBA Draft 1996</h3>
             <img src="./../src/ejs/images/draft_3.jpg" alt="Draft" />
             <p>
               1996年NBAドラフトに高卒でアーリーエントリーした。<br />
@@ -44,7 +51,8 @@
               全体13位指名でシャーロット・ホーネッツから指名されるが、直後のトレードで名門レイカーズに入団する。
             </p>
           </div>
-          <div>
+          <div class="historyImg">
+            <h3 class="imgTitle">96-97 ROOKIE SEASON</h3>
             <img src="./../src/ejs/images/96-97_3.jpg" alt="1st season" />
             <p>
               1996年、チームの大黒柱シャックこと、シャキール・オニール有するレイカーズで<br />
@@ -56,7 +64,8 @@
               オールスター・ウィークエンドのダンクコンテストでは最年少優勝を果たす。<br />
             </p>
           </div>
-          <div>
+          <div class="historyImg">
+            <h3 class="imgTitle">99-20 1ST TIME CHAMPION</h3>
             <img src="./../src/ejs/images/champion1_3.jpg" alt="cahmpionship" />
             <p>
               1999-2000シーズン、マイケル・ジョーダンと共にシカゴ・ブルズで2度の3連覇を果たした<br />
@@ -68,7 +77,8 @@
               コービーにとっては4シーズン目で、初の優勝を果たす。
             </p>
           </div>
-          <div>
+          <div class="historyImg">
+            <h3 class="imgTitle">01-02 3PEAT</h3>
             <img
               src="./../src/ejs/images/champion3x_3.jpg"
               alt="cahmpionship3x"
@@ -81,14 +91,16 @@
               当時23際のコービーは、史上最年少で3度の優勝をした選手となった。<br />
             </p>
           </div>
-          <div>
+          <div class="historyImg">
+            <h3 class="imgTitle">07-08 SEASON MVP</h3>
             <img src="./../src/ejs/images/mvp_2.jpg" alt="mvp" />
             <p>
               2007-2008シーズン、コービーは28.3得点6.3リバウンド5.4アシストを記録。<br />
               自身初となるシーズンMVPを受賞する。
             </p>
           </div>
-          <div>
+          <div class="historyImg">
+            <h3 class="imgTitle">09-10 5th CHAMPIONSHIP</h3>
             <img
               src="./../src/ejs/images/champion5x_3.jpg"
               alt="5 times cahmpionship"
@@ -102,7 +114,8 @@
               そしてコービーは2連覇を成し遂げキャリア5度目の優勝を果たす。
             </p>
           </div>
-          <div>
+          <div class="historyImg">
+            <h3 class="imgTitle">15-16 60pt IN LAST GAME</h3>
             <img src="./../src/ejs/images/intai_3.jpg" alt="" />
             <p>
               2015-16シーズン、コービーは”親愛なるバスケットボールへ”とメッセージを発表し<br />
@@ -120,7 +133,7 @@
 
         <!-- Awards -->
         <section class="award">
-          <h2 class="subTitle">Award</h2>
+          <h2 class="subTitle">AWARDS</h2>
           <div class="awardBackgroundImage">
             <div>
               <img src="./../src/ejs/images/awards_img.jpg" alt="" />
@@ -128,10 +141,6 @@
           </div>
         </section>
       </div>
-
-      <section class="mambaMentality">
-        <h2 class="subTitle">MAMBA MENTALITY</h2>
-      </section>
 
       <!-- Hooter -->
       <% include ./src/ejs/templates/_footer %>

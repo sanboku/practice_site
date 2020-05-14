@@ -1,0 +1,16 @@
+#history {
+  .subTitle {
+    font-family: $titleFont;
+    color: $titleColor;
+    font-size: 40px;
+  }
+  .historyImg {
+    margin-bottom: 30px;
+
+    .imgTitle {
+      font-family: $titleFont;
+      color: $titleColor;
+      font-size: 30px;
+    }
+  }
+}
