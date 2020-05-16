@@ -1,2 +1,10 @@
 #mambaMentality {
+  padding-top: 50px;
+  margin-top: -50px;
+
+  .subTitle {
+    color: $titleColor;
+    font-family: $titleFont;
+    font-size: $subTitleFontSize;
+  }
 }

@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <% let title = "kobe" %> <% include ./src/ejs/templates/_head %>
+  <%# let title = "kobe" %> <%# include ./src/ejs/templates/_head %>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./../src/ejs/reset.css" />
+    <title>KOBE</title>
+  </head>
   <body>
     <div class="wrap">
       <!-- Header -->
@@ -132,11 +139,14 @@
         </section>
 
         <!-- Awards -->
-        <section class="award">
+        <section id="awards">
           <h2 class="subTitle">AWARDS</h2>
-          <div class="awardBackgroundImage">
+          <div class="awardsBackgroundImage">
             <div>
               <img src="./../src/ejs/images/awards_img.jpg" alt="" />
+            </div>
+            <div class="awardsTextArea">
+              <p class="awardsText">aaaaaaa</p>
             </div>
           </div>
         </section>

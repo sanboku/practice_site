@@ -1,8 +1,11 @@
 #history {
+  padding-top: 50px;
+  margin-top: -50px;
+
   .subTitle {
     font-family: $titleFont;
     color: $titleColor;
-    font-size: 40px;
+    font-size: $subTitleFontSize;
   }
   .historyImg {
     margin-bottom: 30px;

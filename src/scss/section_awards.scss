@@ -1,0 +1,21 @@
+#awards {
+  padding-top: 50px;
+  margin-top: -50px;
+
+  .subTitle {
+    color: $titleColor;
+    font-family: $titleFont;
+    font-size: $subTitleFontSize;
+  }
+
+  .awardsBackgroundImage {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .awardsTextArea {
+    .awardsText {
+      margin-right: 500px;
+    }
+  }
+}
