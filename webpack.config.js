@@ -18,6 +18,16 @@ module.exports = {
       filename: "index.html",
       template: "src/ejs/index.ejs",
     }),
+
+    new HtmlWebpackPlugin({
+      filename: "awards_page.html",
+      template: "src/ejs/about/awards_page.ejs",
+    }),
+
+    new HtmlWebpackPlugin({
+      filename: "history_page.html",
+      template: "src/ejs/about/history_page.ejs",
+    }),
   ],
 
   module: {
