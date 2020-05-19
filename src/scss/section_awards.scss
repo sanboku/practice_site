@@ -1,21 +1,31 @@
-#awards {
-  padding-top: 50px;
-  margin-top: -50px;
+.mainContents {
+  margin-top: 50px;
 
-  .subTitle {
-    color: $titleColor;
-    font-family: $titleFont;
-    font-size: $subTitleFontSize;
-  }
+  #awards {
+    .subTitle {
+      color: $titleColor;
+      font-family: $titleFont;
+      font-size: $subTitleFontSize;
+      text-align: center;
+      margin-bottom: 50px;
+    }
 
-  .awardsBackgroundImage {
-    display: flex;
-    justify-content: space-between;
-  }
+    .awardsBackgroundImage {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
 
-  .awardsTextArea {
-    .awardsText {
-      margin-right: 500px;
+    .awardsTextArea {
+      .awardsText {
+        margin-right: 200px;
+        margin-left: 60px;
+        font-size: 2.2vh;
+        font-family: $textFont;
+        color: $textColor;
+        line-height: 3;
+        font-style: bold;
+      }
     }
   }
 }

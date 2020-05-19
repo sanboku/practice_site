@@ -1,19 +1,30 @@
-#history {
-  padding-top: 50px;
-  margin-top: -50px;
-
-  .subTitle {
-    font-family: $titleFont;
-    color: $titleColor;
-    font-size: $subTitleFontSize;
-  }
-  .historyImg {
-    margin-bottom: 30px;
-
-    .imgTitle {
+.historyMainContents {
+  width: 1500px;
+  margin: 50px auto;
+  #history {
+    .subTitle {
       font-family: $titleFont;
       color: $titleColor;
-      font-size: 30px;
+      font-size: $subTitleFontSize;
+      text-align: center;
+    }
+    .historyImg {
+      display: flex;
+      margin-bottom: 50px;
+
+      .imgTitle {
+        font-family: $titleFont;
+        color: $titleColor;
+        font-size: 30px;
+      }
+      p {
+        margin-top: 60px;
+        padding-left: 30px;
+        vertical-align: middle;
+        color: $textColor;
+        font-family: $textFont;
+        font-size: 2vh;
+      }
     }
   }
 }

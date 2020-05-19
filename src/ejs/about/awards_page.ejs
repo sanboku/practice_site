@@ -2,6 +2,44 @@
 <html lang="ja">
   <% var title = "Kobe's Awards" %> <% include ./src/ejs/templates/_head %>
   <body>
-    <p>Awards</p>
+    <div class="wrap">
+      <!-- Header -->
+      <% var mambaMentality = "./index.html"%> <% include
+      ./src/ejs/templates/_header %>
+      <div class="mainContents">
+        <section id="awards">
+          <h2 class="subTitle">AWARDS</h2>
+          <div class="awardsBackgroundImage">
+            <div>
+              <img src="./../src/ejs/images/awards_img.jpg" alt="" />
+            </div>
+            <div class="awardsTextArea">
+              <p class="awardsText">
+                NBA チャンピオンx5　2000,2001,2002,2009,2010<br />
+                NBAファイナル MVPx2　2009,2010<br />
+                NBAシーズンMVP　2008<br />
+                NBAシーズン得点王x2　2006,2007<br />
+                NBAオールスターゲーム出場x18　1998,2000-2016<br />
+                NBAオールスターゲームMVPx4　2002,2007,2009,2011<br />
+                NBAスラムダンクコンテスト優勝　1997<br />
+                オールNBA1stチーム選出x11　2002-2004,2006-2013<br />
+                NBAオールディフェンシブ1stチーム選出x9　2000,2003,2004,2006-2013<br />
+                <br />
+                NBA通算得点歴代4位<br />
+                NBA通算3ポイント成功数歴代15位<br />
+                NBA通算フリースロー成功数歴代3位<br />
+                1試合獲得得点歴代2位　81pt<br />
+                <br />
+                オリンピック金メダルx2　2008,2012<br />
+                <br />
+                ロサンゼルス・レイカーズ永久欠番　No.8 No.24
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- Hooter -->
+    <% include ./src/ejs/templates/_footer %>
   </body>
 </html>
