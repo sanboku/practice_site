@@ -3,4 +3,10 @@
   background-size: cover;
   height: 850px;
   margin-bottom: 10px;
+
+  @media screen and (max-width: 750px) {
+    //sp view
+    height: 30vh;
+    margin-top: 32px;
+  }
 }

@@ -21,6 +21,10 @@
       text-decoration: none;
       font-family: Impact;
       font-size: 20px;
+
+      @media screen and (max-width: 750px) {
+        font-size: 12px;
+      }
     }
   }
 }

@@ -9,11 +9,18 @@
     font-family: $titleFont;
     font-size: $subTitleFontSize;
     text-align: center;
+
+    @media screen and (max-width: 750px) {
+      font-size: 24px;
+    }
   }
 
   .mambaMentalityWrap {
     margin: 0 auto;
     text-align: center;
+    @media screen and (max-width: 750px) {
+      padding: 10px;
+    }
 
     .highlight {
       font-style: bold;
@@ -25,6 +32,9 @@
       text-align: left;
       font-family: $textFont;
       color: $textColor;
+      @media screen and (max-width: 750px) {
+        font-size: 11px;
+      }
     }
   }
 }
